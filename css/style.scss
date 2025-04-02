@@ -244,7 +244,41 @@ a:focus {
   padding: 0;
   border: none;
 }
+/* Adjust icon sizes */
+.top_nav img,
+.navbar-nav .nav-link img,
+.nav_search-btn img {
+  width: 20px; /* Adjust the size as needed */
+  height: auto;
+}
 
+/* Adjust contact info text size */
+.top_nav span {
+  font-size: 16px; /* Adjust the size as needed */
+}
+
+/* Adjust navbar link text size */
+.navbar-nav .nav-link {
+  font-size: 16px; /* Adjust the size as needed */
+}
+
+/* Adjust search button size */
+.nav_search-btn {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+}
+
+/* Ensure navbar links are visible */
+.navbar-nav .nav-link {
+  color: #000; /* Set the color to ensure visibility */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Ensure search button is visible */
+.nav_search-btn {
+  background-color: transparent; /* Set background color to ensure visibility */
+  border: none; /* Remove border */
+}
 .navbar-brand {
   display: flex;
   align-items: center;
